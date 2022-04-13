@@ -93,7 +93,7 @@ class MainViewModel @Inject constructor(
         if(connection.isSuccess){
             _gameConnectionState.emit(GameConnectionState.Loading)
             val channel = chatClient.channel(groupId.channelId)
-            val result = channel.addMembers(userId).await()
+            val result = channel.addMembers(listOf(userId)).await()
             if(result.isSuccess){
                 _gameConnectionState.emit(GameConnectionState.Success(result.data()))
             }else{

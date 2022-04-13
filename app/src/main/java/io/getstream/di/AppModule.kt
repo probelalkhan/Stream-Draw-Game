@@ -6,8 +6,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import io.getstream.chat.android.client.ChatClient
-import io.getstream.chat.android.livedata.ChatDomain
 import io.getstream.data.AppPreferences
 import io.getstream.data.RandomWordsApi
 import javax.inject.Singleton
