@@ -20,6 +20,4 @@
     <string name="submit">Submit</string>
     <string name="exit_game_title">Do you want to exit the game?</string>
     <string name="exit_game_confirm">Exit</string>
-
-    <string name="stream_api_key">7uyq8e43evdp</string>
 </resources>
