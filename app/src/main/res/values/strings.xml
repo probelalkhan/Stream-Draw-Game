@@ -20,4 +20,7 @@
     <string name="submit">Submit</string>
     <string name="exit_game_title">Do you want to exit the game?</string>
     <string name="exit_game_confirm">Exit</string>
+
+    <!-- To get the API Key visit: https://getstream.io/try-for-free/ -->
+    <string name="stream_api_key">Put Your API Key Here</string>
 </resources>
